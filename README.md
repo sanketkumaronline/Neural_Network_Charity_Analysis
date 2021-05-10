@@ -7,8 +7,11 @@ Alphabet Soup is a philanthropic foundation dedicated to helping the organizatio
 Alphabet Soup's president, Andy Glad, wants Beks to create a mathematical data driven solution to predict which organizations are worth donating and which are high-risk. Beks has decided this problem too complex for statistics and machine learning models. Therefore, she will design and train a deep learning neural network. It will evaluate all types of input data and produce a clear decision making result. I will help becks in designing and training deep neural network model using Python Tensorflow Library. This will help Alphabet Soup determine which organizations should receive donation.
 
 **Programming Language:** Python 3.7.9
+
 **Libraries Used:** Tensorflow, Sklearn, Pandas
+
 **Softwares Used:** Visual Studio Code, Jupyter Notebook, Anaconda 1.7.2
+
 **Data Source** [charity_data.csv](./Resources/charity_data.csv)  
 
 ## Results
@@ -35,12 +38,15 @@ Alphabet Soup's president, Andy Glad, wants Beks to create a mathematical data d
 * I took following steps to optimize the model and improve accuracy:
 
     Attempt 1: I increased the number of bins for APPLICATION_TYPE and CLASSIFICATION columns. Also try dropping the STATUS column as it seemed to be inconsequential. However, there wasn't any change in the accuracy.
+
     ![model accuracy1](./Resources/accuracy1.PNG)
 
     Attempt 2: Increased the number of neurons in first layer from 80 to 100, and in second layer from 30 to 50. Also added a third hidden layer with 30 neutrons. However, the accuracy didn't improve much.
+
     ![model accuracy2](./Resources/accuracy2.PNG)
 
     Attempt 3: In this attempt, i used "tanh" activation function instead of "relu" activation function. Also, the number of epochs have increased to 100 from 50. Again, there wasn't any change in the accuracy.
+    
     ![model accuracy3](./Resources/accuracy3.PNG)
 
 ## Summary
