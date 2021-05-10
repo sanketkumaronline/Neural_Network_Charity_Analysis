@@ -12,7 +12,7 @@ Alphabet Soup's president, Andy Glad, wants Beks to create a mathematical data d
 
 **Softwares Used:** Visual Studio Code, Jupyter Notebook, Anaconda 1.7.2
 
-**Data Source** [charity_data.csv](./Resources/charity_data.csv)  
+**Data Source:** [charity_data.csv](./Resources/charity_data.csv)  
 
 ## Results
 
@@ -46,7 +46,7 @@ Alphabet Soup's president, Andy Glad, wants Beks to create a mathematical data d
     ![model accuracy2](./Resources/accuracy2.PNG)
 
     Attempt 3: In this attempt, i used "tanh" activation function instead of "relu" activation function. Also, the number of epochs have increased to 100 from 50. Again, there wasn't any change in the accuracy.
-    
+
     ![model accuracy3](./Resources/accuracy3.PNG)
 
 ## Summary
